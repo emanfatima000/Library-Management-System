@@ -1,6 +1,6 @@
 # Library Management System
 
-A Python-based Library Management System built using Object-Oriented Programming (OOP) and File Handling concepts.
+A Python-based Library Management System developed using Object-Oriented Programming (OOP) and File Handling. This project allows users to manage library records efficiently through a menu-driven interface.
 
 ## Features
 
@@ -12,14 +12,13 @@ A Python-based Library Management System built using Object-Oriented Programming
 * Return books
 * Remove books
 * View available books
-* Save data to file
-* Load data from file automatically
+* Save records to a file
+* Load records from a file
 
 ## Concepts Used
 
-* Object-Oriented Programming (OOP)
-* Classes and Objects
-* Constructors (**init**)
+* Python OOP (Classes and Objects)
+* Constructors (`__init__`)
 * Methods
 * Lists
 * Loops
@@ -33,19 +32,23 @@ A Python-based Library Management System built using Object-Oriented Programming
 
 ## How to Run
 
-1. Download the project files.
+1. Clone or download the repository.
 2. Open the project in VS Code.
-3. Run the following command:
+3. Run the Python file:
 
-```python
+```bash
 python library.py
 ```
 
 ## Project Structure
 
-* library.py
-* books.txt
-* README.md
+```text
+Library-Management-System/
+│
+├── library.py
+├── books.txt
+└── README.md
+```
 
 ## Author
 
