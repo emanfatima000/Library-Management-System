@@ -57,7 +57,7 @@ Library-Management-System/
 
 ### Issue Book
 
-![Issue Book](screenshots/Issue%20book.JPG)
+![Issue Book](screenshots/issue%20book.JPG)
 
 ### View Available Books
 
