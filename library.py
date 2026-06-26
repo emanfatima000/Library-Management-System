@@ -142,13 +142,13 @@ while True:
     print("====LIBRARY MENU====")
     print("1.Add Book ")
     print("2.View Books")
-    print("3.Save & Exit")
-    print("4.Search Book")
+    print("3.Search Book")
+    print("4.Search by Id:")
     print("5.Delete Book")
     print("6.Issue Book")
     print("7.Return Book")
     print("8.View Available Books")
-    print("9.Search by Id:")
+    print("9.Save & Exit")
 
     
     choice = int(input("Enter your choice: "))
@@ -168,12 +168,13 @@ while True:
         library.view_all()
 
     elif choice == 3:
-        library.save_to_file()
-        break
-
-    elif choice == 4:
         book_name = input("Enter a title to search book: ")
         library.search_book(book_name)
+
+
+    elif choice == 4:
+        book_id = int(input("Enter book_id: "))
+        library.search_by_id(book_id)
 
     elif choice == 5:
         book_id = int(input("Enter Book_ID to delete: "))
@@ -191,8 +192,8 @@ while True:
         library.view_available_books()
 
     elif choice == 9:
-        book_id = int(input("Enter book_id: "))
-        library.search_by_id(book_id)
+        library.save_to_file()
+        break
         
     else:
         print("Invalid choice")
